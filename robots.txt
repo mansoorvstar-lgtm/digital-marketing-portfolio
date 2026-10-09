@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://mansoorvstar-lgtm.github.io/digital-marketing-portfolio/sitemap.xml
