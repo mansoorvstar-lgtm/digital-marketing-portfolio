@@ -1063,3 +1063,47 @@ img {
         padding: 22px;
     }
 }
+```css
+/* Mobile Hamburger Menu */
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #2563eb;
+}
+
+@media (max-width: 768px) {
+    .nav-container {
+        position: relative;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+        padding-top: 15px;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 12px 0;
+    }
+
+    .menu-toggle:checked ~ .navbar {
+        display: flex;
+    }
+}
+```
