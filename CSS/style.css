@@ -1104,7 +1104,6 @@ img {
 
     .menu-toggle:checked ~ .navbar {
     display: flex !important;
-}
     }
 }
 ```
